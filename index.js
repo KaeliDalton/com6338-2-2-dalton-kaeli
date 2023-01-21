@@ -8,6 +8,6 @@ function greet(){
         alert('You were born in' + (new Date().getFullYear() - age))
     }
     if(!birthday){
-        alert('You were born in ' +(new Date().getFullYear()- (age + 1)))
+        alert('You were born in ' + (new Date().getFullYear()- (age + 1)))
     }
 }
